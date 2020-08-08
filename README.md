@@ -52,7 +52,7 @@ Run the follwoing command in the root folder to run tests on chrome browser.
 
 `./node_modules/karma/bin/karma start`
 
-A target folder will be generated in the root folder. Navigate to **target/coverage/report-html/** and open index.html to see the line coverage report in browser.
+A **target** folder will be generated in the root folder. Navigate to **target/coverage/report-html/** and open **index.html** to see the line coverage report in browser.
 
 Add the following parameter to debug the jasmine based unit tests:
 

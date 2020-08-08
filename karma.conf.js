@@ -13,7 +13,7 @@ module.exports = function(config) {
         basePath: '',
         files: [
             'test/mocks/mock.js',
-            'co2-calculator.js',
+            'src/co2-calculator.js',
             'test/js/co2-calculatorSpec.js'
         ],
 
@@ -37,7 +37,7 @@ module.exports = function(config) {
             // source files, that you wanna generate coverage for
             // do not include tests or libraries
             // (these files will be instrumented by Istanbul)
-            'co2-calculator.js': sourcePreprocessors
+            'src/co2-calculator.js': sourcePreprocessors
         },
 
         singleRun: false,
